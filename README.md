@@ -1,9 +1,6 @@
-# Your Task
-Our company has released a beta version of **String Reply Service** and it has been a huge success.
-In the current implementation, the **String Reply Service** takes in an input string (in the format of `[a-z0-9]*`)
-and returns the input in a JSON object.
+# Usage
 
-For example,
+V1:
 
 ```
 GET /reply/kbzw9ru
@@ -11,7 +8,7 @@ GET /reply/kbzw9ru
     "data": "kbzw9ru"
 }
 ```
-
+V2:
 As the service is widely adopted, there have been increasing feature requests.
 Our project manager has come back with the following requirement:
 
@@ -52,16 +49,6 @@ GET /v2/reply/22-kbzw9ru
     "data": "e8501e64cf0a9fa45e3c25aa9e77ffd5"
 }
 ```
-
-## What you need to do
-Use the boilerplate given and implement the above requirement.
-Your implementation should consider future requirements, i.e. be able to easily add new rules.
-
-Upon completing the task, please feel free to (though not required):
-
-- host your code on Github
-- include any readme to explain your setup/environment
-- add/implement anything you think would be beneficial
 
 ## Build project
 
